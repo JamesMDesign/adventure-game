@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <audio id="myAudio01">
+        <source src="die.wav" type="audio/wav">
+    </audio>
+
+    <audio id="myAudio02">
+        <source src="win.wav" type="audio/wav">
+    </audio>
+
+    <audio id="myAudio03">
+        <source src="shotgun.wav" type="audio/wav">
+    </audio>
+
+    <audio id="myAudio04">
+        <source src="weird.wav" type="audio/wav">
+    </audio>
+
+    <div class="contain-all">
+
+        <div class="container">
+
+            <div id="inventory">
+
+                <p id="bold-text">inventory</p>
+
+                <ul id="inventory-items">
+                    <li hidden id="knife">knife</li>
+                    <li hidden id="key">key</li>
+                    <li hidden id="note">note</li>
+                    <li hidden id="shotgun">shotgun</li>
+
+            </div>
+
+            <div id="gamearea">
+                <h1 id="start-header">murder mystery game</h1>
+
+                <div id="image-area">
+
+                    <img class="image" id="image" src=''>
+
+                </div>
+
+                <button id="start-button" onclick="startGame()">Start Game</button>
+                <button hidden id="restart-button" onclick="restartGame()">Restart Game</button>
+
+                <div id="details">
+                    <p id="main-text"></p>
+                    <p id="button-area"></p>
+                    <p id="search-text"></p>
+                    <p id="inspect-text"></p>
+                    <p id="question-text"></p>
+                    <p id="action-text"></p>
+                    <p hidden id="shotgun-text">You shoot the man and incapacitate him, its a great day to be alive eh?
+                    </p>
+                    <p hidden id="no-shotgun-text">you attempt to fight the man in unarmed combat but are subdued. the
+                        light slowly fades to black</p>
+                    <p hidden id="run-text">You try to run but don't make it, looks like this is the end of the road for
+                        simev</p>
+                    <p hidden id="fighting-event">the man then suddenly lunges to attack you!!!<br>
+                        do you want to <button id="fight-button">fight!</button> or <button id="run-button"
+                            onclick="run()">run!</button> </p>
+                    <button id="search-button" onclick="search()">Search</button>
+                    <button id="inspect-button" onclick="inspect()">Inspect</button>
+                    <button id="question-button" onclick="question()">Question</button>
+                </div>
+            </div>
+
+            <div id="controls">
+
+                <p id="bold-text">controls</p>
+                <p>to travel in different directions type <br> <br> north <br> south <br> east <br> west <br></p>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

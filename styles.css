@@ -1,0 +1,99 @@
+body {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#header {
+    background-color: azure;
+    width: 50%;
+    margin: auto auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+#main-text {
+    background-color: azure;
+    width: 50%;
+    margin: auto auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#gamearea {
+    background-color: azure;
+    width: 50%;
+    margin: auto auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#search-button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#inspect-button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#question-button {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+}
+
+#fight-button {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+}
+
+#run-button {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+}
+
+#start-button {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+}
+
+#restart-button {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+}
+
+#inventory {
+    background-color: azure;
+    width: 20%;
+    float: left;
+    word-wrap: break-word;
+}
+
+#controls {
+    background-color: azure;
+    width: 20%;
+    float: bottom;
+    word-wrap: break-word;
+    margin-top: 25px;
+}
+
+#bold-text {
+    font-weight: bold;
+}
+
+#shotgun-text {
+    font-weight: bolder;
+}
+
+#no-shotgun-text {
+    font-weight: bolder;
+}
+
+#run-text {
+    font-weight: bolder;
+}
+
+.image {
+    width: 250px;
+}
